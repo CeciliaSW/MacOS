@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2201DDEC29EF3A91007445EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2201DDEB29EF3A91007445EB /* Main.storyboard */; };
+		226445DF2A4242A8002B31C7 /* vcModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226445DE2A4242A8002B31C7 /* vcModal.swift */; };
+		2290799B29F7A2140063DB88 /* vcPopUpModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2290799A29F7A2140063DB88 /* vcPopUpModal.swift */; };
+		22921E0F2A1C1A0700F5AE26 /* ProductController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22921E0E2A1C1A0700F5AE26 /* ProductController.swift */; };
+		22921E112A1C1A3400F5AE26 /* PurchaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22921E102A1C1A3400F5AE26 /* PurchaseController.swift */; };
+		22A52D9A29F30854007C441E /* vcRegisterForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A52D9929F30853007C441E /* vcRegisterForm.swift */; };
+		22B542092A1BECFD00EB6710 /* vcAdmin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B542082A1BECFD00EB6710 /* vcAdmin.swift */; };
+		22C57D572A1BE6DE00EB487E /* vcOrders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C57D562A1BE6DE00EB487E /* vcOrders.swift */; };
+		22C80C0B29F3099400557AB4 /* vcLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C80C0A29F3099400557AB4 /* vcLogin.swift */; };
+		22C80C0D29F30AE600557AB4 /* Vcquery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C80C0C29F30AE600557AB4 /* Vcquery.swift */; };
+		C3080FAA2A04790900FB9D62 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3080FA92A04790900FB9D62 /* LoginController.swift */; };
+		C3488EC829EF62F80093F134 /* vcAddClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3488EC729EF62F80093F134 /* vcAddClass.swift */; };
+		C3679B042A16EA6000D12578 /* vcSales.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3679B022A16EA6000D12578 /* vcSales.swift */; };
+		C3679B052A16EA6000D12578 /* vcSales.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3679B032A16EA6000D12578 /* vcSales.xib */; };
+		C3679B082A16EA7100D12578 /* vcQuerySales.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3679B062A16EA7100D12578 /* vcQuerySales.swift */; };
+		C3679B092A16EA7100D12578 /* vcQuerySales.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3679B072A16EA7100D12578 /* vcQuerySales.xib */; };
+		C3679B0B2A16F08800D12578 /* SaleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3679B0A2A16F08800D12578 /* SaleController.swift */; };
+		C376AFE72A0C5AE3000E2B37 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = C376AFE62A0C5AE3000E2B37 /* Product.swift */; };
+		C376AFEF2A0C5E1C000E2B37 /* Purchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = C376AFEE2A0C5E1C000E2B37 /* Purchase.swift */; };
+		C376AFF12A0C5E45000E2B37 /* Sale.swift in Sources */ = {isa = PBXBuildFile; fileRef = C376AFF02A0C5E45000E2B37 /* Sale.swift */; };
+		C385A6C629EF5ABE0075CC17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C385A6C529EF5ABE0075CC17 /* AppDelegate.swift */; };
+		C385A6C829EF5ABE0075CC17 /* vcWelcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = C385A6C729EF5ABE0075CC17 /* vcWelcome.swift */; };
+		C385A6CA29EF5ABF0075CC17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C385A6C929EF5ABF0075CC17 /* Assets.xcassets */; };
+		C395B0402A01DF050033B3DE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C395B03F2A01DF050033B3DE /* User.swift */; };
+		C3AC15552A15A3CE00CD8D8F /* vcWelcomeBuyer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AC15532A15A3CE00CD8D8F /* vcWelcomeBuyer.swift */; };
+		C3AC15562A15A3CE00CD8D8F /* vcWelcomeBuyer.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3AC15542A15A3CE00CD8D8F /* vcWelcomeBuyer.xib */; };
+		C3AC15592A15A3D800CD8D8F /* vcWelcomeSeller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AC15572A15A3D800CD8D8F /* vcWelcomeSeller.swift */; };
+		C3AC155A2A15A3D800CD8D8F /* vcWelcomeSeller.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3AC15582A15A3D800CD8D8F /* vcWelcomeSeller.xib */; };
+		C3AC155D2A15A3E200CD8D8F /* vcWelcomeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AC155B2A15A3E200CD8D8F /* vcWelcomeClient.swift */; };
+		C3AC155E2A15A3E200CD8D8F /* vcWelcomeClient.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3AC155C2A15A3E200CD8D8F /* vcWelcomeClient.xib */; };
+		C3C3A2AE2A192D9C00732C24 /* vcPurchases.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C3A2AC2A192D9C00732C24 /* vcPurchases.swift */; };
+		C3C3A2AF2A192D9C00732C24 /* vcPurchases.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3C3A2AD2A192D9C00732C24 /* vcPurchases.xib */; };
+		C3C3A2B22A192DB100732C24 /* vcQueryPurchases.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C3A2B02A192DB100732C24 /* vcQueryPurchases.swift */; };
+		C3C3A2B32A192DB100732C24 /* vcQueryPurchases.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3C3A2B12A192DB100732C24 /* vcQueryPurchases.xib */; };
+		C3C3A2B62A192DC100732C24 /* vcProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C3A2B42A192DC100732C24 /* vcProducts.swift */; };
+		C3C3A2B72A192DC100732C24 /* vcProducts.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3C3A2B52A192DC100732C24 /* vcProducts.xib */; };
+		C3C3A2BA2A192DCB00732C24 /* vcQueryProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C3A2B82A192DCB00732C24 /* vcQueryProducts.swift */; };
+		C3C3A2BB2A192DCB00732C24 /* vcQueryProducts.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3C3A2B92A192DCB00732C24 /* vcQueryProducts.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2201DDEB29EF3A91007445EB /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		226445DE2A4242A8002B31C7 /* vcModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vcModal.swift; sourceTree = "<group>"; };
+		2290799A29F7A2140063DB88 /* vcPopUpModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vcPopUpModal.swift; sourceTree = "<group>"; };
+		22921E0E2A1C1A0700F5AE26 /* ProductController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductController.swift; sourceTree = "<group>"; };
+		22921E102A1C1A3400F5AE26 /* PurchaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseController.swift; sourceTree = "<group>"; };
+		22A52D9929F30853007C441E /* vcRegisterForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vcRegisterForm.swift; sourceTree = "<group>"; };
+		22B542082A1BECFD00EB6710 /* vcAdmin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vcAdmin.swift; sourceTree = "<group>"; };
+		22C57D562A1BE6DE00EB487E /* vcOrders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vcOrders.swift; sourceTree = "<group>"; };
+		22C80C0A29F3099400557AB4 /* vcLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vcLogin.swift; sourceTree = "<group>"; };
+		22C80C0C29F30AE600557AB4 /* Vcquery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vcquery.swift; sourceTree = "<group>"; };
+		C3080FA92A04790900FB9D62 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		C3488EC729EF62F80093F134 /* vcAddClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vcAddClass.swift; sourceTree = "<group>"; };
+		C3679B022A16EA6000D12578 /* vcSales.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vcSales.swift; sourceTree = "<group>"; };
+		C3679B032A16EA6000D12578 /* vcSales.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = vcSales.xib; sourceTree = "<group>"; };
+		C3679B062A16EA7100D12578 /* vcQuerySales.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vcQuerySales.swift; sourceTree = "<group>"; };
+		C3679B072A16EA7100D12578 /* vcQuerySales.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = vcQuerySales.xib; sourceTree = "<group>"; };
+		C3679B0A2A16F08800D12578 /* SaleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleController.swift; sourceTree = "<group>"; };
+		C376AFE62A0C5AE3000E2B37 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		C376AFEE2A0C5E1C000E2B37 /* Purchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Purchase.swift; sourceTree = "<group>"; };
+		C376AFF02A0C5E45000E2B37 /* Sale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sale.swift; sourceTree = "<group>"; };
+		C385A6C229EF5ABE0075CC17 /* TableView_2P_MacOS412.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableView_2P_MacOS412.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C385A6C529EF5ABE0075CC17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C385A6C729EF5ABE0075CC17 /* vcWelcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vcWelcome.swift; sourceTree = "<group>"; };
+		C385A6C929EF5ABF0075CC17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C385A6CE29EF5ABF0075CC17 /* TableView_2P_MacOS412.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TableView_2P_MacOS412.entitlements; sourceTree = "<group>"; };
+		C395B03F2A01DF050033B3DE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C3AC15532A15A3CE00CD8D8F /* vcWelcomeBuyer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vcWelcomeBuyer.swift; sourceTree = "<group>"; };
+		C3AC15542A15A3CE00CD8D8F /* vcWelcomeBuyer.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = vcWelcomeBuyer.xib; sourceTree = "<group>"; };
+		C3AC15572A15A3D800CD8D8F /* vcWelcomeSeller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vcWelcomeSeller.swift; sourceTree = "<group>"; };
+		C3AC15582A15A3D800CD8D8F /* vcWelcomeSeller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = vcWelcomeSeller.xib; sourceTree = "<group>"; };
+		C3AC155B2A15A3E200CD8D8F /* vcWelcomeClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vcWelcomeClient.swift; sourceTree = "<group>"; };
+		C3AC155C2A15A3E200CD8D8F /* vcWelcomeClient.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = vcWelcomeClient.xib; sourceTree = "<group>"; };
+		C3C3A2AC2A192D9C00732C24 /* vcPurchases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vcPurchases.swift; sourceTree = "<group>"; };
+		C3C3A2AD2A192D9C00732C24 /* vcPurchases.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = vcPurchases.xib; sourceTree = "<group>"; };
+		C3C3A2B02A192DB100732C24 /* vcQueryPurchases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vcQueryPurchases.swift; sourceTree = "<group>"; };
+		C3C3A2B12A192DB100732C24 /* vcQueryPurchases.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = vcQueryPurchases.xib; sourceTree = "<group>"; };
+		C3C3A2B42A192DC100732C24 /* vcProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vcProducts.swift; sourceTree = "<group>"; };
+		C3C3A2B52A192DC100732C24 /* vcProducts.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = vcProducts.xib; sourceTree = "<group>"; };
+		C3C3A2B82A192DCB00732C24 /* vcQueryProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vcQueryProducts.swift; sourceTree = "<group>"; };
+		C3C3A2B92A192DCB00732C24 /* vcQueryProducts.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = vcQueryProducts.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C385A6BF29EF5ABE0075CC17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C385A6B929EF5ABE0075CC17 = {
+			isa = PBXGroup;
+			children = (
+				C385A6C429EF5ABE0075CC17 /* TableView_2P_MacOS412 */,
+				C385A6C329EF5ABE0075CC17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C385A6C329EF5ABE0075CC17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C385A6C229EF5ABE0075CC17 /* TableView_2P_MacOS412.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C385A6C429EF5ABE0075CC17 /* TableView_2P_MacOS412 */ = {
+			isa = PBXGroup;
+			children = (
+				C376AFEE2A0C5E1C000E2B37 /* Purchase.swift */,
+				C376AFF02A0C5E45000E2B37 /* Sale.swift */,
+				C376AFE62A0C5AE3000E2B37 /* Product.swift */,
+				C385A6C529EF5ABE0075CC17 /* AppDelegate.swift */,
+				C395B03F2A01DF050033B3DE /* User.swift */,
+				C3080FA92A04790900FB9D62 /* LoginController.swift */,
+				C3679B0A2A16F08800D12578 /* SaleController.swift */,
+				22C80C0A29F3099400557AB4 /* vcLogin.swift */,
+				C385A6C729EF5ABE0075CC17 /* vcWelcome.swift */,
+				22A52D9929F30853007C441E /* vcRegisterForm.swift */,
+				C3488EC729EF62F80093F134 /* vcAddClass.swift */,
+				22C80C0C29F30AE600557AB4 /* Vcquery.swift */,
+				2290799A29F7A2140063DB88 /* vcPopUpModal.swift */,
+				C385A6C929EF5ABF0075CC17 /* Assets.xcassets */,
+				C385A6CE29EF5ABF0075CC17 /* TableView_2P_MacOS412.entitlements */,
+				2201DDEB29EF3A91007445EB /* Main.storyboard */,
+				C3C3A2AC2A192D9C00732C24 /* vcPurchases.swift */,
+				C3C3A2B02A192DB100732C24 /* vcQueryPurchases.swift */,
+				C3C3A2B42A192DC100732C24 /* vcProducts.swift */,
+				C3C3A2B82A192DCB00732C24 /* vcQueryProducts.swift */,
+				C3C3A2B92A192DCB00732C24 /* vcQueryProducts.xib */,
+				C3C3A2B52A192DC100732C24 /* vcProducts.xib */,
+				C3C3A2B12A192DB100732C24 /* vcQueryPurchases.xib */,
+				C3C3A2AD2A192D9C00732C24 /* vcPurchases.xib */,
+				C3679B062A16EA7100D12578 /* vcQuerySales.swift */,
+				C3679B072A16EA7100D12578 /* vcQuerySales.xib */,
+				C3679B022A16EA6000D12578 /* vcSales.swift */,
+				C3679B032A16EA6000D12578 /* vcSales.xib */,
+				C3AC15532A15A3CE00CD8D8F /* vcWelcomeBuyer.swift */,
+				C3AC15572A15A3D800CD8D8F /* vcWelcomeSeller.swift */,
+				C3AC155B2A15A3E200CD8D8F /* vcWelcomeClient.swift */,
+				C3AC155C2A15A3E200CD8D8F /* vcWelcomeClient.xib */,
+				C3AC15582A15A3D800CD8D8F /* vcWelcomeSeller.xib */,
+				C3AC15542A15A3CE00CD8D8F /* vcWelcomeBuyer.xib */,
+				22C57D562A1BE6DE00EB487E /* vcOrders.swift */,
+				22B542082A1BECFD00EB6710 /* vcAdmin.swift */,
+				22921E0E2A1C1A0700F5AE26 /* ProductController.swift */,
+				22921E102A1C1A3400F5AE26 /* PurchaseController.swift */,
+				226445DE2A4242A8002B31C7 /* vcModal.swift */,
+			);
+			path = TableView_2P_MacOS412;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C385A6C129EF5ABE0075CC17 /* TableView_2P_MacOS412 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C385A6D129EF5ABF0075CC17 /* Build configuration list for PBXNativeTarget "TableView_2P_MacOS412" */;
+			buildPhases = (
+				C385A6BE29EF5ABE0075CC17 /* Sources */,
+				C385A6BF29EF5ABE0075CC17 /* Frameworks */,
+				C385A6C029EF5ABE0075CC17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableView_2P_MacOS412;
+			productName = ListView_2P_MacOS412;
+			productReference = C385A6C229EF5ABE0075CC17 /* TableView_2P_MacOS412.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C385A6BA29EF5ABE0075CC17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C385A6C129EF5ABE0075CC17 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = C385A6BD29EF5ABE0075CC17 /* Build configuration list for PBXProject "TableView_2P_MacOS412" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C385A6B929EF5ABE0075CC17;
+			productRefGroup = C385A6C329EF5ABE0075CC17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C385A6C129EF5ABE0075CC17 /* TableView_2P_MacOS412 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C385A6C029EF5ABE0075CC17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3AC155E2A15A3E200CD8D8F /* vcWelcomeClient.xib in Resources */,
+				C3AC155A2A15A3D800CD8D8F /* vcWelcomeSeller.xib in Resources */,
+				C3C3A2BB2A192DCB00732C24 /* vcQueryProducts.xib in Resources */,
+				C3C3A2B72A192DC100732C24 /* vcProducts.xib in Resources */,
+				C3AC15562A15A3CE00CD8D8F /* vcWelcomeBuyer.xib in Resources */,
+				C3C3A2B32A192DB100732C24 /* vcQueryPurchases.xib in Resources */,
+				C3679B092A16EA7100D12578 /* vcQuerySales.xib in Resources */,
+				C3679B052A16EA6000D12578 /* vcSales.xib in Resources */,
+				C385A6CA29EF5ABF0075CC17 /* Assets.xcassets in Resources */,
+				2201DDEC29EF3A91007445EB /* Main.storyboard in Resources */,
+				C3C3A2AF2A192D9C00732C24 /* vcPurchases.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C385A6BE29EF5ABE0075CC17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3C3A2B62A192DC100732C24 /* vcProducts.swift in Sources */,
+				C3679B082A16EA7100D12578 /* vcQuerySales.swift in Sources */,
+				22C80C0B29F3099400557AB4 /* vcLogin.swift in Sources */,
+				C3AC15552A15A3CE00CD8D8F /* vcWelcomeBuyer.swift in Sources */,
+				C3C3A2AE2A192D9C00732C24 /* vcPurchases.swift in Sources */,
+				22A52D9A29F30854007C441E /* vcRegisterForm.swift in Sources */,
+				C385A6C829EF5ABE0075CC17 /* vcWelcome.swift in Sources */,
+				C3AC155D2A15A3E200CD8D8F /* vcWelcomeClient.swift in Sources */,
+				C3679B0B2A16F08800D12578 /* SaleController.swift in Sources */,
+				22921E0F2A1C1A0700F5AE26 /* ProductController.swift in Sources */,
+				226445DF2A4242A8002B31C7 /* vcModal.swift in Sources */,
+				22C57D572A1BE6DE00EB487E /* vcOrders.swift in Sources */,
+				C376AFF12A0C5E45000E2B37 /* Sale.swift in Sources */,
+				C3C3A2B22A192DB100732C24 /* vcQueryPurchases.swift in Sources */,
+				C385A6C629EF5ABE0075CC17 /* AppDelegate.swift in Sources */,
+				C3C3A2BA2A192DCB00732C24 /* vcQueryProducts.swift in Sources */,
+				C395B0402A01DF050033B3DE /* User.swift in Sources */,
+				C376AFEF2A0C5E1C000E2B37 /* Purchase.swift in Sources */,
+				22C80C0D29F30AE600557AB4 /* Vcquery.swift in Sources */,
+				2290799B29F7A2140063DB88 /* vcPopUpModal.swift in Sources */,
+				C3AC15592A15A3D800CD8D8F /* vcWelcomeSeller.swift in Sources */,
+				C376AFE72A0C5AE3000E2B37 /* Product.swift in Sources */,
+				22921E112A1C1A3400F5AE26 /* PurchaseController.swift in Sources */,
+				C3488EC829EF62F80093F134 /* vcAddClass.swift in Sources */,
+				C3679B042A16EA6000D12578 /* vcSales.swift in Sources */,
+				C3080FAA2A04790900FB9D62 /* LoginController.swift in Sources */,
+				22B542092A1BECFD00EB6710 /* vcAdmin.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C385A6CF29EF5ABF0075CC17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C385A6D029EF5ABF0075CC17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C385A6D229EF5ABF0075CC17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TableView_2P_MacOS412/TableView_2P_MacOS412.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cecilia412.www.ListView-2P-MacOS412";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C385A6D329EF5ABF0075CC17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TableView_2P_MacOS412/TableView_2P_MacOS412.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cecilia412.www.ListView-2P-MacOS412";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C385A6BD29EF5ABE0075CC17 /* Build configuration list for PBXProject "TableView_2P_MacOS412" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C385A6CF29EF5ABF0075CC17 /* Debug */,
+				C385A6D029EF5ABF0075CC17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C385A6D129EF5ABF0075CC17 /* Build configuration list for PBXNativeTarget "TableView_2P_MacOS412" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C385A6D229EF5ABF0075CC17 /* Debug */,
+				C385A6D329EF5ABF0075CC17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C385A6BA29EF5ABE0075CC17 /* Project object */;
+}
